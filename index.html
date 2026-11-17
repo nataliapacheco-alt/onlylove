@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080608">
+  <title>Para ti ♥</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+  <div class="heart-field" aria-hidden="true" id="heartField"></div>
+
+  <main class="page">
+    <div class="top-note"><span>♡</span> un pequeño deseo para ti <span>♡</span></div>
+
+    <section class="gift-area" aria-label="Tarjeta sorpresa">
+      <div class="bow bow-top" aria-hidden="true">୨୧</div>
+      <button class="envelope" id="openCard" type="button" aria-label="Abrir tarjeta">
+        <span class="envelope-shadow"></span>
+        <span class="envelope-back"></span>
+        <span class="letter" id="letter">
+          <span class="letter-hearts">♥　♡　♥</span>
+          <span class="message">hoy te irá<br> súper bien,<br> vas a ver que sí</span>
+          <span class="tiny-line">con mucho cariño</span>
+          <span class="letter-stamp">♥</span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="seal">♥</span>
+      </button>
+      <p class="hint" id="hint">toca la tarjeta para abrirla ♡</p>
+    </section>
+
+    <section class="music-section">
+      <div class="divider"><span>✧</span><span class="divider-line"></span><span>♪</span><span class="divider-line"></span><span>✧</span></div>
+      <p class="music-label">una canción para acompañar tu día</p>
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/N7VCLNBNJQs?list=RDN7VCLNBNJQs"
+          title="Una canción para ti"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <a class="youtube-link" href="https://www.youtube.com/watch?v=N7VCLNBNJQs&list=RDN7VCLNBNJQs&start_radio=1" target="_blank" rel="noopener noreferrer">
+        abrir directamente en YouTube <span>↗</span>
+      </a>
+      <p class="for-you">para ti <span>&lt;3</span></p>
+    </section>
+
+    <footer>hecho con amor, corazoncitos y un poquito de magia <span>♡</span></footer>
+  </main>
+
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
